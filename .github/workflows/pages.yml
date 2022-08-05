@@ -3,12 +3,14 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - gh-pages  # Set a branch to deploy
+      - gh-pages  # Set a branch name to trigger deployment
   pull_request:
 
 jobs:
   deploy:
     runs-on: ubuntu-20.04
+    permissions:
+      contents: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
@@ -21,14 +23,16 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.101.0'
-          # extended: true
 
       - name: Build
         run: hugo --minify -t hugo-theme-stack
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
+        # If you're changing the branch from main, 
+        # also change the `main` in `refs/heads/main` 
+        # below accordingly.
+        if: ${{ github.ref == 'refs/heads/gh-pages' }}
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: ./public
