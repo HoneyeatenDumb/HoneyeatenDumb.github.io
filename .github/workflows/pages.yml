@@ -36,5 +36,4 @@ jobs:
         with:
           
           personal_token: ${{ secrets.HoneyeatenDumb's bash script }}
-          deploy_key: ${{ secrets.MintJi-ThinkBook-16p/username = "HoneyeatenDumb" }}
           publish_dir: ./public
