@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Example Site</title>
+        <link>HoneyeatenDumb.github.io/post/</link>
+        <description>Recent content in Posts on Example Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 05 Aug 2022 14:13:49 +0900</lastBuildDate><atom:link href="HoneyeatenDumb.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Action</title>
+        <link>HoneyeatenDumb.github.io/p/action/</link>
+        <pubDate>Fri, 05 Aug 2022 14:13:49 +0900</pubDate>
+        
+        <guid>HoneyeatenDumb.github.io/p/action/</guid>
+        <description>&lt;h1 id=&#34;hi&#34;&gt;HI!&lt;/h1&gt;
+&lt;p&gt;YAYAYAYAYAY!!
+GitHub Action!!!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;level 1
+&lt;ul&gt;
+&lt;li&gt;level 2
+&lt;ul&gt;
+&lt;li&gt;level 3
+&lt;ul&gt;
+&lt;li&gt;level 4
+*level 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Testing</title>
+        <link>HoneyeatenDumb.github.io/p/testing/</link>
+        <pubDate>Fri, 05 Aug 2022 13:37:41 +0900</pubDate>
+        
+        <guid>HoneyeatenDumb.github.io/p/testing/</guid>
+        <description>&lt;h1 id=&#34;this-is-testing&#34;&gt;This is testing.&lt;/h1&gt;
+&lt;p&gt;This is testing.
+&lt;a class=&#34;link&#34; href=&#34;#testing-1&#34; &gt;one&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;#1-this-is-testingthis-is-testinga-idtesting-1a&#34; &gt;원&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;#testing-2&#34; &gt;two&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;#testing-3&#34; &gt;three&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;1-this-is-testingthis-is-testinga-idtesting-1a&#34;&gt;1. This is testing.This is testing.&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;This is testing.&lt;/em&gt;
+&lt;strong&gt;This is testing.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-this-is-testingthis-is-testingthis-is-testinga-idtesting-2a&#34;&gt;2. This is testing.This is testing.This is testing.&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;This is testing.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This is testing.This is testing.**&lt;/p&gt;
+&lt;h4 id=&#34;3-this-is-testingthis-is-testingthis-is-testingthis-is-testinga-idtesting-3a&#34;&gt;3. This is testing.This is testing.This is testing.This is testing.&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h4&gt;
+&lt;p&gt;This is testing.This is testing.This is testing.This is testing.&lt;/p&gt;
+&lt;h1 id=&#34;happy&#34;&gt;Happy&lt;/h1&gt;
+&lt;p&gt;happy&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
